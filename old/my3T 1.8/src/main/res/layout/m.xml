@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:onClick="x">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:layout_gravity="center"
+		android:background="@drawable/b"
+		android:layout_margin="10dp"
+		android:padding="8dp"
+		android:onClick="l">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:text="我的一加3T"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="48px"
+				android:padding="32px"
+				android:onClick="进群"
+				android:background="@drawable/a"
+				android:layout_marginLeft="200px"
+				android:textColor="#000000"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="200px"
+				android:id="@+id/bb"
+				android:textColor="#000000"
+				android:padding="30px"
+				android:textSize="36px"
+				android:onClick="捐赠"/>
+
+		</LinearLayout>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="自启管理"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:onClick="zt"
+			android:layout_margin="12px"
+			android:padding="32px"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="开机自启"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:padding="32px"
+			android:onClick="kt"
+			android:layout_margin="12px"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="后台控制"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:padding="32px"
+			android:onClick="ht"
+			android:layout_margin="12px"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="网络控制"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:padding="32px"
+			android:onClick="wl"
+			android:layout_margin="12px"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="权限控制"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:padding="32px"
+			android:onClick="qx"
+			android:layout_margin="12px"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="应用锁"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:padding="32px"
+			android:onClick="ys"
+			android:layout_margin="12px"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="无障碍"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:padding="32px"
+			android:onClick="wz"
+			android:layout_margin="12px"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="开发者"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:padding="32px"
+			android:onClick="kf"
+			android:layout_margin="12px"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="内存浮窗"
+			android:background="@drawable/a"
+			android:textSize="48px"
+			android:padding="32px"
+			android:onClick="f"
+			android:layout_margin="12px"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
